@@ -78,6 +78,7 @@ h1{
     padding: 0.8em;
     box-shadow: black 0.25em 0.25em 1em;
     transition: 300ms;
+    cursor: pointer;
 
 }
 
@@ -97,6 +98,7 @@ h1{
     padding: 0.8em;
     box-shadow: black 0.25em 0.25em 1em;
     transition: 300ms;
+    cursor: pointer;
 }
 
 .desencriptar:hover{
@@ -115,6 +117,7 @@ h1{
     padding: 0.8em;
     box-shadow: black 0.25em 0.25em 1em;
     transition: 300ms;
+    cursor: pointer;
 
 }
 .copiar:hover{
