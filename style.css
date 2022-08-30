@@ -1,0 +1,122 @@
+body{
+    background-image: url(img/matrix.jpg);
+}
+
+.logo{
+    display: block;
+    margin-top: 40px;
+    margin-left: 84px;
+    width: 31.09px;
+    height: 48px;
+}
+
+main{
+    display: flex;
+    margin-left: 164px;
+    margin-bottom: 50px;
+}
+
+.input-texto{
+    position: absolute;
+    width: 40%;
+    height: 48px;
+    left: 15%;
+    top: 168px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    border: none;
+    border-radius: 0.3em;
+    box-shadow: black 0.25em 0.25em 1em;
+}
+
+h1{
+    position: absolute;
+    left: 15%;
+    top: 60%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 1em;
+    font-weight: bold;
+    color: #bfc0c2;
+
+}
+.mensaje{
+    position: absolute;
+    width: 20%;
+    height: 60%;
+    left: 75%;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 1em;
+    background-image: url(img/matrix.jpg);
+    box-shadow: black 0.25em 0.25em 2em;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #bfc0c2;
+}
+
+.encriptar{
+    position: absolute;
+    left: 15%;
+    top: 70%;
+    background: #370d52;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #bfc0c2;
+    border-radius: 00.3em;
+    border: none;
+    padding: 0.8em;
+    box-shadow: black 0.25em 0.25em 1em;
+    transition: 300ms;
+
+}
+
+.encriptar:hover{
+    scale: 1.05;
+}
+.desencriptar{
+    position: absolute;
+    left: 25%;
+    top: 70%;
+    background: #bfc0c2;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #370d52 ;
+    border-radius: 00.3em;
+    border: none;
+    padding: 0.8em;
+    box-shadow: black 0.25em 0.25em 1em;
+    transition: 300ms;
+}
+
+.desencriptar:hover{
+    scale: 1.05;
+}
+.copiar{
+    position: absolute;
+    left: 82%;
+    top: 70%;
+    background: deeppink;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #E5E5E5;
+    border-radius: 00.3em;
+    border: none;
+    padding: 0.8em;
+    box-shadow: black 0.25em 0.25em 1em;
+    transition: 300ms;
+
+}
+.copiar:hover{
+    scale: 1.05;
+}
