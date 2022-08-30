@@ -55,10 +55,10 @@ function desencriptar(stringEncriptada){
 }
 
 function btnCopiar(){
-    
-    var content = document.getElementById('textarea');
-    content.select(); document.execCommand('copy');
-    alert("Copied!");
-    
+    mensaje.select()
+    navigator.clipboard.writeText(mensaje.value)
+    mensaje.value = ""
+    alert("¡Texto Copiado!")  
 }
+
 
