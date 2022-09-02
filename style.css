@@ -1,5 +1,6 @@
 body{
     background-image: url(img/matrix.jpg);
+    width: 100%;
 }
 
 .logo{
@@ -87,7 +88,7 @@ h1{
 }
 .desencriptar{
     position: absolute;
-    left: 25%;
+    left: 27%;
     top: 70%;
     background: #bfc0c2;
     font-size: 1.5em;
